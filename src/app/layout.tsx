@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Saravana L | DevOps Engineer",
-    description: "DevOps Portfolio showcasing projects and skills",
+    description: "Automating infrastructure. Scaling systems. Delivering reliability.",
     url: "https://portfolio-saravana-l.vercel.app",
     siteName: "Saravana Portfolio",
     images: [
