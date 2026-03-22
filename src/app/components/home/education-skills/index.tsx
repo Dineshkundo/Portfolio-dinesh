@@ -18,7 +18,7 @@ const EducationSkills = () => {
 
         {/* Header */}
         <div className="flex justify-between border-b border-gray-700 pb-4 mb-8">
-          <h2 className="text-xl md:text-2xl font-semibold">Education & Skills</h2>
+          <h2> Education & Skills</h2>
           <p className="text-orange-400 text-sm">(03)</p>
         </div>
 
