@@ -16,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
 
       <div className="container max-w-6xl mx-auto px-4">
 
@@ -53,17 +53,23 @@ const Header = () => {
 
           {/* MOBILE MENU BUTTON */}
           <button
-            className="md:hidden text-xl"
             onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden flex items-center justify-center w-10 h-10 rounded-lg border border-gray-300 hover:bg-gray-100 active:scale-95 transition focus:outline-none"
           >
-            ☰
+            <span className="text-xl text-gray-800">
+              {menuOpen ? "✕" : "☰"}
+            </span>
           </button>
 
         </nav>
 
         {/* MOBILE MENU */}
-        {menuOpen && (
-          <div className="md:hidden flex flex-col gap-4 pb-4 text-sm font-medium">
+        <div
+          className={`md:hidden overflow-hidden transition-all duration-300 ${
+            menuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="flex flex-col gap-4 py-4 bg-white rounded-xl shadow-md mt-2 px-4">
 
             {navItems.map((item) => (
               <a
@@ -84,7 +90,7 @@ const Header = () => {
             ))}
 
           </div>
-        )}
+        </div>
 
       </div>
     </header>
@@ -92,7 +98,6 @@ const Header = () => {
 };
 
 export default Header;
-
 
 // "use client";
 
