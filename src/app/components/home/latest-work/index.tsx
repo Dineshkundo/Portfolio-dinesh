@@ -18,7 +18,7 @@ const LatestWork = () => {
 
         {/* Header */}
         <div className="flex justify-between border-b border-gray-700 pb-4 mb-8">
-          <h2 className="text-xl md:text-2xl font-semibold">Latest Works</h2>
+          <h2>Latest Works</h2>
           <p className="text-orange-400 text-sm">(04)</p>
         </div>
 
