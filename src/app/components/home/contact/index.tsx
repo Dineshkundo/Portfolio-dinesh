@@ -44,7 +44,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-gradient-to-b from-gray-50 to-white pt-24 md:pt-32 pb-16 md:pb-20 scroll-mt-[80px]"
+      className="bg-gradient-to-b from-gray-50 to-white pt-24 md:pt-32 pb-16 md:pb-20"
     >
       <div className="container max-w-6xl mx-auto px-4">
 
