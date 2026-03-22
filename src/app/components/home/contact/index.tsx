@@ -41,7 +41,11 @@ const Contact = () => {
     }));
   };
 
-    <section id="contact" className="bg-gradient-to-b from-gray-50 to-white scroll-mt-[120px]">
+  return (
+    <section
+      id="contact"
+      className="bg-gradient-to-b from-gray-50 to-white pt-24 md:pt-32 pb-16 md:pb-20 scroll-mt-[120px]"
+    >
       <div className="container max-w-6xl mx-auto px-4">
 
         {/* Header */}
@@ -63,7 +67,6 @@ const Contact = () => {
 
               {/* Name + Phone */}
               <div className="grid grid-cols-2 gap-6">
-
                 <div>
                   <label className="text-sm text-gray-400">Name *</label>
                   <input
@@ -85,7 +88,6 @@ const Contact = () => {
                     className="w-full bg-transparent border-b border-gray-600 focus:border-orange-500 outline-none py-2 transition"
                   />
                 </div>
-
               </div>
 
               {/* Email */}
@@ -138,8 +140,7 @@ const Contact = () => {
 
               <p className="text-gray-600 leading-relaxed mb-8">
                 Feel free to reach out for collaboration, project discussions,
-                or DevOps opportunities. I enjoy working on cloud automation,
-                CI/CD pipelines, and scalable infrastructure solutions.
+                or DevOps opportunities.
               </p>
 
               <div className="flex flex-col gap-5">
