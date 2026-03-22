@@ -41,8 +41,7 @@ const Contact = () => {
     }));
   };
 
-  return (
-    <section id="contact" className="bg-gradient-to-b from-gray-50 to-white pt-24 md:pt-32 pb-16 md:pb-20">
+    <section id="contact" className="bg-gradient-to-b from-gray-50 to-white scroll-mt-[120px]">
       <div className="container max-w-6xl mx-auto px-4">
 
         {/* Header */}
