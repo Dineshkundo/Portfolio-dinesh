@@ -35,7 +35,7 @@ const AboutMe = () => {
 
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-[#111827] p-5 rounded-xl border border-gray-700">
-                <h3 className="text-orange-400 text-2xl font-bold">02+</h3>
+                <h3 className="text-orange-400 text-2xl font-bold">02</h3>
                 <p className="text-gray-400 text-sm">Years Experience</p>
               </div>
               <div className="bg-[#111827] p-5 rounded-xl border border-gray-700">
