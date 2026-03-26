@@ -1,4 +1,4 @@
-# 🚀 Saravana L - DevOps Portfolio
+# 🚀 Dinesh  - DevOps Portfolio
 
 A modern DevOps portfolio built with **Next.js & Tailwind CSS**, showcasing cloud, CI/CD, Kubernetes, and automation projects.
 
