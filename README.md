@@ -52,11 +52,11 @@ npm start
 ---
 ### 📬 Contact
 
-Email: saravana09052002aws@gmail.com
+Email: kundodinesh0@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/saravanal
+LinkedIn: https://www.linkedin.com/in/dineshkundo
 
-GitHub: https://github.com/SaravanaNani
+GitHub: https://github.com/Dineshkundo
 ---
 ### 📄 License
 
